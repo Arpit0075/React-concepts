@@ -41,6 +41,7 @@ function StopWatch() {
       <button onClick={handleStopWatch}>Start/Stop</button>
       <button
         onClick={() => {
+          setHour(0);
           setMinute(0);
           setSecond(0);
         }}
