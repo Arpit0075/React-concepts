@@ -15,6 +15,7 @@ import Main from "./Callback/Main";
 import Pagination from "./Pagination/Pagination";
 import ThrottleComponent from "./Throttling/ThrottleComponent";
 import StopWatch from "./StopWatch/StopWatch";
+import HOC1 from "./HOC1/HOC1";
 
 //lazy loading, suspense
 const ComponentALazy = lazy(() => import("./ComponentALazy"));
@@ -46,7 +47,8 @@ function App() {
       {/* <Main /> */}
       {/* <Pagination /> */}
       {/* <ThrottleComponent /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      <HOC1 />
     </div>
   );
 }
